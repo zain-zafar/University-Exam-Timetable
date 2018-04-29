@@ -1,0 +1,61 @@
+/*
+Syed Zain Zafar, 1002534705, zafarsy4, CSCB20H3S.
+2017-03-31.
+Assignment Description: Upon entering course name, display 
+info of that course exam timetable.
+File content: The design/style for html files
+*/
+
+body {
+	background-color: grey;
+	text-align: center;
+}
+
+
+#frame {
+	margin: auto;
+	background-color: white;
+	border: 30pt blue solid;
+}
+
+
+
+h2 {
+	color: blue;
+	font-size: 30pt;
+	padding-top: 10px;
+	padding-bottom: 50px;
+}
+
+table {
+	margin: 0 auto 10px;	
+	width: 80%;
+	border: 1.5px solid black;
+	border-collapse: collapse;
+			
+}
+
+tr:nth-child(odd) {background-color: #ccccff;} /* Give the html table, zebra striping */
+
+#bottom_image{ /* Applies to image at the bottom of the page */
+
+	margin-top: 90px;
+	max-width: 50%;
+	margin-right: 600px;
+}
+
+
+fieldset {
+	margin: auto; 
+	width: 50%;
+}
+
+#legend { /* Responsible for making legend text, centered */
+	margin-left: 42%;
+}
+
+
+#form {
+	padding-top: 50px;
+}
+

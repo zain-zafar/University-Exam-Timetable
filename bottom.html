@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- ONLY GIVING head TO PASS HTML VALIDATION -->
+		<title>My Exam Timetable</title>
+		<meta charset="utf-8" />
+	</head>
+	
+	<body>
+		<div id="frame">
+			<header>  
+				<!-- new HTML5 page-section structure element -->
+				<h2>UTSC Winter 2017 Final Exam Timetable</h2>
+			</header>
+
+			<!-- This div contains the html table and form common to both php files -->
+			<div id="main">
+				<!-- HTML TABLE -->
+				<table>
+					<tr>
+						<th>Course</th>
+						<th>Section</th>
+						<th>Instructor</th>
+						<th>Date</th>
+						<th>Start</th>
+						<th>End</th>
+					</tr>
+				</table>
+				<!-- HTML FORM which holds content the user interacts with -->
+				<form id="form" method="get" action="search.php">
+					<!-- Create a border around the button and inputs -->
+					<fieldset>
+						<!-- Create inputs and buttons -->
+						<legend id="legend">Search Exams</legend>
+						<input id ="input_box" type="text" placeholder ="course name">
+						<button id="search_button" type="submit">Search</button>
+						<button type="reset" id="clear">Reset</button>
+						<!-- Create the dropdown menu -->
+						<select id="list">
+							<option value="default">Select A Course</option>
+						</select>
+					</fieldset>
+				</form>
+				<!-- Adding image at the bottom of the page -->
+				<img id="bottom_image" src="http://cmslab.utsc.utoronto.ca/courses/cscb20w17/zafarsy4/a3/banner.jpg" alt="uoft" />
+			</div>
+		</div>	
+	</body>
+</html>
